@@ -1,0 +1,177 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo navigabile per registrare le entrate, le uscite e le attività svolte in un laboratorio didattico. Variante di prova 9, con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica delle presenze e delle attività del laboratorio.",
+      "metrics": [
+        {
+          "label": "Presenze oggi",
+          "value": "12"
+        },
+        {
+          "label": "Ingressi registrati",
+          "value": "12"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "8"
+        },
+        {
+          "label": "Attività in corso",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Gruppo",
+        "Stato",
+        "Partecipanti"
+      ],
+      "rows": [
+        [
+          "Circuiti luminosi",
+          "Nubi",
+          "In corso",
+          "5"
+        ],
+        [
+          "Forme in movimento",
+          "Lumo",
+          "In corso",
+          "4"
+        ],
+        [
+          "Suoni e vibrazioni",
+          "Vela",
+          "In preparazione",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra le registrazioni di entrata e uscita del laboratorio.",
+      "metrics": [],
+      "columns": [
+        "Partecipante",
+        "Gruppo",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Ari Lumo",
+          "Nubi",
+          "12/05/2025",
+          "09:05",
+          "11:30",
+          "Circuiti luminosi"
+        ],
+        [
+          "Mira Vela",
+          "Lumo",
+          "12/05/2025",
+          "09:10",
+          "11:45",
+          "Forme in movimento"
+        ],
+        [
+          "Tavi Nubi",
+          "Vela",
+          "12/05/2025",
+          "09:15",
+          "—",
+          "Suoni e vibrazioni"
+        ],
+        [
+          "Neri Lumo",
+          "Nubi",
+          "12/05/2025",
+          "09:20",
+          "11:20",
+          "Circuiti luminosi"
+        ],
+        [
+          "Sela Vela",
+          "Lumo",
+          "12/05/2025",
+          "09:25",
+          "—",
+          "Forme in movimento"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Gruppo",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    },
+    {
+      "id": "attivita",
+      "title": "Attività",
+      "description": "Gestisci le attività didattiche e i gruppi partecipanti.",
+      "metrics": [],
+      "columns": [
+        "Attività",
+        "Gruppo",
+        "Data",
+        "Orario",
+        "Stato",
+        "Partecipanti"
+      ],
+      "rows": [
+        [
+          "Circuiti luminosi",
+          "Nubi",
+          "12/05/2025",
+          "09:00–11:30",
+          "In corso",
+          "5"
+        ],
+        [
+          "Forme in movimento",
+          "Lumo",
+          "12/05/2025",
+          "09:00–12:00",
+          "In corso",
+          "4"
+        ],
+        [
+          "Suoni e vibrazioni",
+          "Vela",
+          "12/05/2025",
+          "10:00–12:00",
+          "In preparazione",
+          "3"
+        ],
+        [
+          "Trame di carta",
+          "Nubi",
+          "13/05/2025",
+          "09:30–11:00",
+          "Pianificata",
+          "6"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Gruppo",
+        "Data",
+        "Orario",
+        "Stato",
+        "Partecipanti"
+      ]
+    }
+  ]
+}
